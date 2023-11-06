@@ -7,6 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-gateway" />
+        <module name="microservice-student" />
+        <module name="microservice-eureka" />
+        <module name="microservice-config" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +19,7 @@
       <module name="microservice-config" options="-parameters" />
       <module name="microservice-eureka" options="-parameters" />
       <module name="microservice-gateway" options="-parameters" />
+      <module name="microservice-student" options="-parameters" />
       <module name="springmicroservicios" options="" />
     </option>
   </component>
