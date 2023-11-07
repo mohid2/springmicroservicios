@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6013cb82-56ee-41c2-a2a8-392655db2984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
