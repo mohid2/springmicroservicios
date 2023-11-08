@@ -1,6 +1,7 @@
 package com.microservice.course.controller;
 
 import com.microservice.course.entity.Course;
+import com.microservice.course.http.response.StudentByCourseResponse;
 import com.microservice.course.service.CourseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +22,11 @@ public class CourseController {
     @GetMapping("/{id}")
     public ResponseEntity<Course> getCourse(@PathVariable Long id){
         return ResponseEntity.ok(courseService.findById(id));
+    }
+
+    @GetMapping("/search-student/{courseId}")
+    public ResponseEntity<StudentByCourseResponse> findAllStudentByCourseId(@PathVariable Long courseId){
+        return ResponseEntity.ok(courseService.findAllStudentByCourse(courseId));
     }
 
     @PostMapping()

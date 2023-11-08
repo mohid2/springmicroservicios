@@ -1,20 +1,20 @@
 server:
-  port: 8090
+  port: 9090
 
 spring:
   application:
     name: msvc-course
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/course
-    username: root
+    username: postgres
     password: 123456789
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: create
     database: postgresql
-    database-platform: org.hibernate.dialect.PostgresqlDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
   config:
     import: optional:configserver:https://localhost:8888
 
@@ -23,4 +23,4 @@ eureka:
     hostname: localhost
   client:
     service-url:
-      defaultZone: http://localhost:8761/eure
+      defaultZone: http://localhost:8761/eureka

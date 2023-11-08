@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6013cb82-56ee-41c2-a2a8-392655db2984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/client/StudentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/dto/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/http/response/StudentByCourseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/resources/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/MicroserviceCourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/MicroserviceCourseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-student/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-student/src/main/resources/import.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

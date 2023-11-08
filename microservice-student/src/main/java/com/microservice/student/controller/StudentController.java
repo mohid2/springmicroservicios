@@ -20,10 +20,7 @@ public class StudentController {
         return ResponseEntity.ok(studentService.getAllStudents());
     }
 
-    @GetMapping("/course/{courseId}")
-    public ResponseEntity<List<Student>> getAllStudentByCourseId(@PathVariable  Long courseId){
-        return ResponseEntity.ok(studentService.getAllByCourseId(courseId));
-    }
+
     @GetMapping("/{id}")
     public ResponseEntity<Student> getStudent(@PathVariable  Long id){
         return ResponseEntity.ok(studentService.findById(id));
@@ -31,5 +28,9 @@ public class StudentController {
     @PostMapping()
     public ResponseEntity<Student> save(@RequestBody  Student student){
         return ResponseEntity.ok(studentService.saveStudent(student));
+    }
+    @GetMapping("/search-by-course/{courseId}")
+    public ResponseEntity<List<Student>> getAllStudentByCourseId(@PathVariable  Long courseId){
+        return ResponseEntity.ok(studentService.getAllByCourseId(courseId));
     }
 }
